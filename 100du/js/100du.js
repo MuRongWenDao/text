@@ -94,7 +94,7 @@ $(function (){
 			if ( iNow > 0 ) {
 				iNow = -(arrData.length-1);
 			}
-			oUl.stop().animate({ 'top': iH*iNow }, 2200, 'elasticOut');
+			oUl.animate({ 'top': iH*iNow }, 500);
 		}
 	})();
 	
