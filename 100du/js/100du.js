@@ -40,7 +40,7 @@ $(function (){
 	})();
 
 	
-	// update文字弹性滑动
+	// update文字切换
 	(function (){
 		var oDiv = $('.update');
 		var oUl = oDiv.find('ul');
